@@ -25,8 +25,11 @@ Organize users and administrators based on roles and prepare the environment for
 ## Skills Practiced
 
 - Windows Server Administration
+
 - Active Directory Domain Services
 - DNS Configuration
 - Identity and Access Management (IAM)
 - Organizational Unit Design
 - Domain Controller Deployment                                                                      
+
+![image alt](https://github.com/zhasansec/active-directory-home-lab/blob/9a4c2908d469d24f8259a35102122dc9387f59e8/Day%201%20Active%20Directory%20.png)
