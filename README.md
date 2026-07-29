@@ -52,7 +52,7 @@ This project demonstrates the deployment and configuration of a Windows Server 2
 
 Configured a Windows Server 2022 virtual machine and promoted it to a Domain Controller.
 
-![image alt](<img width="1012" height="762" alt="image" src="https://github.com/user-attachments/assets/0f068501-e23c-485b-9779-551fc794c7f9" />)
+![image alt](https://github.com/zhasansec/active-directory-home-lab/blob/5d27c09121a1912a431a252c8adaa1f9148806ed/Windows%20Active%20Directory%20.png)
 
 
 
