@@ -60,7 +60,8 @@ Configured a Windows Server 2022 virtual machine and promoted it to a Domain Con
 
 ## 2. Created Organizational Units (OUs)
 
-Created departmental Organizational Units to organize users and resources.
+Created departmental Organizational Units to organize users and resources and created multiple Active Directory user accounts for each department.
+
 
 Departments:
 
@@ -71,23 +72,14 @@ Departments:
 
 **Screenshot**
 
-![OUs](screenshots/02-organizational-units.png)
+![image alt](https://github.com/zhasansec/active-directory-home-lab/blob/34a984ac45450a234f4cb9bb890e3fbe65ca93db/OU%20-%20Users%20.png)
 
 ---
 
-## 3. Created Domain Users
 
-Created multiple Active Directory user accounts for each department.
+## 3. Created Security Groups and Assigned Users 
 
-**Screenshot**
-
-![Users](screenshots/03-users.png)
-
----
-
-## 4. Created Security Groups
-
-Configured security groups for department-based access control.
+Configured security groups for department-based access control and added users to the appropriate Active Directory security groups.
 
 Examples:
 
@@ -102,63 +94,61 @@ Examples:
 
 **Screenshot**
 
-![Groups](screenshots/04-security-groups.png)
+![image alt](https://github.com/zhasansec/active-directory-home-lab/blob/34a984ac45450a234f4cb9bb890e3fbe65ca93db/Security%20Groups%20with%20example%20.png)
 
 ---
 
-## 5. Assigned Users to Security Groups
 
-Added users to the appropriate Active Directory security groups.
 
-**Screenshot**
-
-![Group Membership](screenshots/05-group-membership.png)
-
----
-
-## 6. Configured Shared Folder Permissions
+## 4. Configured Shared Folder Permissions
 
 Created departmental shared folders and configured NTFS permissions using security groups.
 
 **Screenshot**
 
-![Permissions](screenshots/06-ntfs-permissions.png)
+![image alt](https://github.com/zhasansec/active-directory-home-lab/blob/34a984ac45450a234f4cb9bb890e3fbe65ca93db/Domain%20Server%20Company%20Folders%20.png)
+
+
+![image alt](https://github.com/zhasansec/active-directory-home-lab/blob/34a984ac45450a234f4cb9bb890e3fbe65ca93db/Admin%20NTFS%20permissions.png)
+
+
+![image alt](https://github.com/zhasansec/active-directory-home-lab/blob/34a984ac45450a234f4cb9bb890e3fbe65ca93db/User%20NTFS%20permissions%20.png)
 
 ---
 
-## 7. Joined Windows 11 Client to the Domain
+## 5. Joined Windows 11 Client to the Domain
 
 Successfully joined a Windows 11 workstation to the Active Directory domain.
 
 **Screenshot**
 
-![Domain Join](screenshots/07-domain-joined-client.png)
+![image alt](https://github.com/zhasansec/active-directory-home-lab/blob/34a984ac45450a234f4cb9bb890e3fbe65ca93db/Logged%20In%20ClientPC%20with%20a%20domain%20server%20account%20.png)
 
 ---
 
-## 8. Accessed Shared Network Resources
+## 6. Accessed Shared Network Resources
 
 Verified access to the shared folder from the Windows 11 domain client using the network share.
 
 Example:
 
 ```
-\\192.168.1.32\Company Data\IT
+\\192.168.1.32\Company Data\
 ```
 
 **Screenshot**
 
-![Network Share](screenshots/08-network-share.png)
+![image alt](https://github.com/zhasansec/active-directory-home-lab/blob/e2967a75ea6e38412199db6ccbb1378600807a12/File%20Sharing%20Proof.png)
 
 ---
 
-## 9. Verified File Access
+## 7. Verified File Access
 
 Successfully opened files stored on the Windows Server from the Windows 11 client.
 
 **Screenshot**
 
-![Shared File](screenshots/09-opened-file.png)
+![image alt](https://github.com/zhasansec/active-directory-home-lab/blob/e2967a75ea6e38412199db6ccbb1378600807a12/ClientPC%20accessing%20domain%20server%20files%20.png)
 
 ---
 
@@ -190,20 +180,5 @@ During this lab I learned how to:
 
 ---
 
-# Screenshots
 
-```
-screenshots/
-│
-├── 01-domain-controller.png
-├── 02-organizational-units.png
-├── 03-users.png
-├── 04-security-groups.png
-├── 05-group-membership.png
-├── 06-ntfs-permissions.png
-├── 07-domain-joined-client.png
-├── 08-network-share.png
-└── 09-opened-file.png
-```
 
----
